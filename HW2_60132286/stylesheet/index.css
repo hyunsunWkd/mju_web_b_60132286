@@ -1,0 +1,109 @@
+body {
+	background-color: #b7d1c4;
+}
+
+h2 {
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+	color: #acd1b2;
+}
+
+img {
+	height: 320px;
+	widows: 200px;
+	box-shadow: rgba(0,0,0,0.2) 10px 10px;
+	margin-bottom: 15px;
+}
+
+li > a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+p > a {
+	text-decoration: none;
+}
+
+p > a:hover {
+	color: red;
+}
+
+p {
+	font-family: Tahoma;
+	font-size: 1em
+}
+
+#navbar {
+	position: fixed;
+	top: 10px;
+	left: 80%;
+	margin-left: -254px;
+}
+
+#header {
+	position: relative;
+	top: -10px;
+	background-color: #3c4543;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+ul {
+	list-style-type: none;
+	position: fixed;
+	margin-top: -10px;
+	margin-bottom: 50px;
+}
+
+li {
+	display: inline;
+	border: 2px solid #000000;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #ffffff;
+	padding: 5px;
+	border-radius: 5px 5px;
+	background-color: #cc0323
+}
+
+#footer {
+	clear: both;
+	bottom: -20px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	height: 70px;
+	background-color: #3c4543;
+}
+#left {
+	float:left;
+	margin:5px 30px;
+}
+
+#right {
+	margin:0 0 20px 0;
+}
+
+#right_bottom {
+	margin:90px 0 0 700px;
+}
+
+.item {
+	color:#000080;
+	font-size:16px;
+	font-family:돋움;
+	margin:0 5px 0 0;
+}
+
+.gray {
+	color: gray;
+	font-size: 15px;
+}
+
+.name {
+	color:#000080;
+	font-weight:bold;
+	font-size:20px;
+	font-family: Malgun Gothic;
+}
